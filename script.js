@@ -12,7 +12,7 @@ let desEle = document.querySelector('.description')
 let windEle = document.querySelector('.wind')
 let countryEle = document.querySelector('.country')
 
-let ApiKey = '5a7887090feec21fd513ae037e8d52da'
+let ApiKey = '' // enter your api key
 // functionality to display the weather information dynamically based on user input
 btnEle.addEventListener('click',()=>{
     let location = locEle.value
